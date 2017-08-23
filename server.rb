@@ -2,7 +2,9 @@ require 'sinatra'
 
 
 get '/home' do
+  erb :index
+end
 
- erb :index
-
+get '/portfolio' do
+erb :gallery
 end
